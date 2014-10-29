@@ -7,7 +7,7 @@ $(document).ready(function(e) {
 		});
 		
 		$('#vibrar').tap(function(){
-			navigator.notification.beep(1);
+			navigator.notification.vibrate(1000);
 		});
 	},false);
 });
